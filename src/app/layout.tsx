@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body className="flex justify-center">
-        <div className="w-full lg:w-[1000px] px-4">
+        <div className="w-full lg:w-[800px] px-4">
           {children}
         </div>
       </body>
